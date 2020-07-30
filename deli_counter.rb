@@ -17,7 +17,6 @@ def take_a_number(katz_deli, new_customer)
    place = katz_deli.index(new_customer) + 1
    puts "Welcome, #{new_customer}. You are number #{place} in line."
 end
-end
 
 def now_serving(katz_deli)
   if katz_deli.empty?
