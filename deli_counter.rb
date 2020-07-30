@@ -13,7 +13,9 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, new_customer)
-   katz_deli.empty?
+   katz_deli.push(new_customer)
+   place = new_customer.index + 1
+   puts "Welcome, #{new_customer}. You are number #{place} in line."
     
 end
 end
