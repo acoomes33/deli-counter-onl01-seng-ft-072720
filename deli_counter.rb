@@ -13,9 +13,14 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, new_customer)
-  
+  if katz_deli.empty?
+    puts ""
 end
 
-def now_serving(customer)
+def now_serving(katz_deli)
+  if katz_deli.empty?
+    puts "There is nobody waiting to be served!"
+  else 
+    puts "Currently serving"
   
 end
