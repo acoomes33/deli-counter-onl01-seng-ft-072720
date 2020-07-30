@@ -13,10 +13,9 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, new_customer)
-   katz_deli.push(new_customer)
+   katz_deli.each do |new_customer| katz_deli.push(new_customer)
    place = katz_deli.index(new_customer) + 1
    puts "Welcome, #{new_customer}. You are number #{place} in line."
-    
 end
 end
 
