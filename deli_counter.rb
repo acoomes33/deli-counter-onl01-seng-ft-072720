@@ -14,7 +14,7 @@ end
 
 def take_a_number(katz_deli, new_customer)
   if katz_deli.empty?
-    puts ""
+    
 end
 end
 
