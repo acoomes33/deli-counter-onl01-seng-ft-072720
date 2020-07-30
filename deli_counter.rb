@@ -16,6 +16,7 @@ def take_a_number(katz_deli, new_customer)
   if katz_deli.empty?
     puts ""
 end
+end
 
 def now_serving(katz_deli)
   if katz_deli.empty?
